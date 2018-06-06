@@ -1355,7 +1355,8 @@ export default class Autosuggest extends React.Component {
   }
 
   // autobind
-  _handleBlur() {
+  _handleBlur(event) {
+    console.log(`event.relatedTarget = ${event.relatedTarget}`);
     this._focusTimeoutId = setTimeout(() => {
       this._focusTimeoutId = null
       this._focused = false

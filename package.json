@@ -1,6 +1,6 @@
 {
   "name": "react-bootstrap-autosuggest",
-  "version": "0.5.0",
+  "version": "0.5.0-tweak.3",
   "description": "Autosuggest component for react-bootstrap",
   "main": "lib/Autosuggest.js",
   "files": [
@@ -23,8 +23,7 @@
   },
   "author": "Trevor Robinson <trevor@affinipay.com>",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/affinipay/react-bootstrap-autosuggest.git"
+    "type": "git"
   },
   "keywords": [
     "react",
